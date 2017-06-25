@@ -4,6 +4,17 @@ Sachsenscraper is a tool to collect data about the members (MdL) of the regional
 
 ## Setup
 
+Install the requirements, which are
+
+* requests
+* BeautifulSoup4
+
+e.g. by using pip:
+
+```zsh
+pip install -r requirements.txt
+```
+
 ## Usage
 
 ### sachsenscraper.py
