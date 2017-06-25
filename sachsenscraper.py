@@ -21,7 +21,8 @@ __license__ = "GPL V3"
 # CONSTANTS ############################################################################################################
 
 # Fetching "Intensity"
-FETCH_URL = "http://www.landtag.sachsen.de/de/abgeordnete-fraktionen/abgeordnete/statistik?datestring={date}&submitDate=true"
+FETCH_URL = "http://www.landtag.sachsen.de/de/abgeordnete-fraktionen\
+/abgeordnete/statistik?datestring={date}&submitDate=true"
 FETCH_RETRY = 10
 FETCH_SLEEP = 0.3
 
@@ -41,7 +42,8 @@ COMITTEE_LIST   =   {   "132" : "Ausschuss für Geschäftsordnung und Immunität
                         "135" : "Ausschuss für Wirtschaft, Arbeit und Verkehr",
                         "129" : "Ausschuss für Wissenschaft und Hochschule, Kultur und Medien",
                         "136" : "Bewertungsausschuss",
-                        "141" : "Enquete-Kommission „Sicherstellung der Versorgung und Weiterentwicklung der Qualität in der Pflege älterer Menschen im Freistaat Sachsen“",
+                        "141" : "Enquete-Kommission „Sicherstellung der Versorgung und Weiterentwicklung\
+ der Qualität in der Pflege älterer Menschen im Freistaat Sachsen“",
                         "130" : "Europaausschuss",
                         "134" : "Haushalts- und Finanzausschuss",
                         "127" : "Innenausschuss",
